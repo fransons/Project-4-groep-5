@@ -44,15 +44,15 @@
 
         <main>
         <article class="vak1">
-            <p>Sign Up</p>
+            <p>Sign In</p>
         </article>
 
         <article class="Form">
         <form method="POST">
         
-            <label>Username:</label><br><input type="text" name="username" /><br>
-            <label>Password</label><br><input type="password" name="password" /><br>
-            <input type="submit" name="submit" value="Inloggen" />
+            <label></label><br><input type="text" name="username" class="user" placeholder= "Gebruikersnaam:"/><br>
+            <br><input type="password" name="password" class="user" placeholder= "Wachtwoord:"/><br>
+            <input type="submit" name="submit" value="Sign In" class="inloggen"/>
             
         </form>
         </article>

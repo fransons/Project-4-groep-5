@@ -1,10 +1,12 @@
 *{
     font-family: 'Roboto', sans-serif;
+    
 }
 
 .achtergrondfoto{
     display: block;
     opacity: 0.25;
+    z-index: -1;
     position: absolute;
     left: 500px;
     top: 200px;
@@ -38,9 +40,9 @@ Body{
 
 .footer{
     
-    height: 50px;
+    height: 40px;
     color: white;
-    margin-top: 40px;
+    margin-top: 210px;
     background: rgba(186, 5, 79, 1);
     width: 101%;
     margin-left: -8px;
@@ -91,7 +93,32 @@ a:hover{
     margin-left: 600px;
 }
 
+.Form{
+    margin-top: -80px;
+    margin-left: 530px;
+    z-index: -1;
+}
 
+.user{
+    border-style: solid;
+    border-color: yellow;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+}
+
+.inloggen{
+    border-style: solid;
+    border-color: yellow;
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 75px;
+    height: 30px;
+    width: 200px;
+}
 
 
 
