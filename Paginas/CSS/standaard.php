@@ -11,8 +11,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
     	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
         <title>MathKits</title>
-        <link rel="stylesheet" type="text/css" href="CSS/home.css">
-        <script src="JS/homepage.js"></script> 
+        <link rel="stylesheet" type="text/css" href="CSS/.css">
+        <script src="JS/.js"></script> 
         <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     </head>
@@ -26,7 +26,7 @@
                     <nav>
                        <ul id="menu">
                        <a class="hoofdnav" href="index.php"><li>Home</li></a>
-                        <a class="hoofdnav" href=".php"><li>Inlog</li></a>
+                        <a class="hoofdnav" href="Inlog.php"><li>Inlog</li></a>
                         <a class="hoofdnav" href=".php"><li>Eenvoudig</li></a>
                         <a class="hoofdnav" href=".php"><li>Complex</li></a>
                         <a class="hoofdnav" href=".php"><li>Game</li></a>
@@ -51,6 +51,9 @@
         </p>        
         </article>
         
+        <article class="achtergrondfoto">
+            	<img src="images/logo.png">
+        </article>
         </main>
         <footer>
             <article class="footer">
