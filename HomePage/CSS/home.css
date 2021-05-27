@@ -1,0 +1,125 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    background: rgba(186, 5, 79, 1);
+    width: 1538px;
+    height: 120px;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+Body{
+    display: block;
+    background: linear-gradient(50deg, rgba(226, 10, 98, 1) 21%, rgba(255, 85, 81, 1) 61%); 
+    width: 99%;
+    
+}
+
+.logo{
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.footer{
+    
+    height: 50px;
+    color: white;
+    margin-top: 40px;
+    background: rgba(186, 5, 79, 1);
+    width: 101%;
+    margin-left: -8px;
+}
+
+.footertext{
+    display: block;
+    position: absolute;
+    top: 40px;
+    margin-left: 15px;
+    font-size: 20px;
+    color: white;
+  
+}
+
+
+
+
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}
+
+.hoofdnav {
+    position: relative;
+    left: 600px;
+    top: 25px;
+    padding-left: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    color: white;
+    
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.vak1{
+    color: white;
+    font-weight: Bold;
+    font-size: 100px;
+    margin-left: 100px;
+}
+
+.vak2{
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    margin-left:800px;
+    top: 220px;
+}
+
+
+
+
+
+
+/*telefoon*/
+
+@media screen and (max-width: 767px){
+}
+
+/*landscape phone*/
+@media (min-width : 319px) and (max-width: 480px){
+
+}
+
+/*ipad landscape*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    
+}
+
+/*tablet potrait*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (orientation : portrait) { 
+
+}
