@@ -1,5 +1,19 @@
 <?php
-        $error = "niet de juiste gegevens ingevuld";
+        
+        if (isset($_POST['submit'])) {
+            If (!empty($_POST['username']) && !empty($_POST['password'])) {
+                require("dbconnect.php");
+                $username = trim($_POST['username']);
+                $password = trim($_POST['password']);
+
+                $sql = "SELECT * FROM gebruikers WHERE username = '".$username."' AND password = '". $password"'";
+
+                if ($result = $conn->query($sql)){
+                    $aantal = $result->num_rows;
+                }
+            }
+        }
+        }
         ?>
 <!doctype html>
 
@@ -23,13 +37,13 @@
 
     
         <header>
-        <a href="index.php">
+        <a href="inlog.php">
          <img src="images/logo.png" class="logo">
          <nav>
                 <article class="nav">
                     <nav>
                        <ul id="menu">
-                       <a class="hoofdnav" href="index.php"><li>Home</li></a>
+                       
                         <a class="hoofdnav" href="Inlog.php"><li>Inlog</li></a>
                         <a class="hoofdnav" href=".php"><li>Eenvoudig</li></a>
                         <a class="hoofdnav" href=".php"><li>Complex</li></a>

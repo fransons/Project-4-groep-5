@@ -71,7 +71,7 @@ Body{
 
 .hoofdnav {
     position: relative;
-    left: 600px;
+    left: 700px;
     top: 25px;
     padding-left: 20px;
     text-decoration: none;
@@ -135,7 +135,7 @@ a:hover{
             display: flex;
             flex-direction: row;
             background: rgba(186, 5, 79, 1);
-            width: 770px;
+            width: 360px;
             height: 70px;
             margin-left: -10px;
             margin-top: -10px;
@@ -190,7 +190,7 @@ a:hover{
         
         .hoofdnav {
             position: relative;
-            left: 25px;
+            left: 50px;
             top: 15px;
             padding-left: 5px;
             text-decoration: none;
@@ -219,7 +219,7 @@ a:hover{
             color: white;
             font-weight: Bold;
             font-size: 60px;
-            margin-left: 60px;
+            margin-left: 75px;
         }
         
         .vak2{
@@ -228,6 +228,35 @@ a:hover{
             font-size: 40px;
             margin-left:60px;
             top: 400px;
+        }
+
+
+        .Form{
+            margin-top: -20px;
+            margin-left: 40px;
+            z-index: -1;
+        }
+        
+        .user{
+            border-style: solid;
+            border-color: yellow;
+            background-color: transparent;
+            color: white;
+            font-size: 30px;
+            width: 250px;
+        }
+        
+        .inloggen{
+            border-style: solid;
+            border-color: yellow;
+            color: white;
+            background-color: transparent;
+            font-size: 20px;
+            border-radius: 50px;
+            margin-top: 30px;
+            margin-left: 75x;
+            height: 30px;
+            width: 100px;
         }
 }
 
@@ -314,7 +343,7 @@ and (orientation : portrait) {
     
     .hoofdnav {
         position: relative;
-        left: 150px;
+        left: 200px;
         top: 25px;
         padding-left: 10px;
         text-decoration: none;
@@ -341,7 +370,7 @@ and (orientation : portrait) {
         color: white;
         font-weight: Bold;
         font-size: 80px;
-        margin-left: 200px;
+        margin-left: 250px;
     }
     
     .vak2{
@@ -350,6 +379,33 @@ and (orientation : portrait) {
         font-size: 60px;
         margin-left:200px;
         top: 500px;
+    }
+
+    .Form{
+        margin-top: -50px;
+        margin-left: 190px;
+        z-index: -1;
+    }
+    
+    .user{
+        border-style: solid;
+        border-color: yellow;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+    }
+    
+    .inloggen{
+        border-style: solid;
+        border-color: yellow;
+        color: white;
+        background-color: transparent;
+        font-size: 20px;
+        border-radius: 50px;
+        margin-top: 30px;
+        margin-left: 75px;
+        height: 30px;
+        width: 200px;
     }
     
 }
