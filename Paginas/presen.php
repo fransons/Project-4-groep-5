@@ -11,8 +11,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
     	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
         <title>MathKits</title>
-        <link rel="stylesheet" type="text/css" href="CSS/home.css">
-        <script src="JS/homepage.js"></script> 
+        <link rel="stylesheet" type="text/css" href="CSS/presen.css">
+        <script src="JS/.js"></script> 
         <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     </head>
@@ -39,21 +39,37 @@
         </header>
 
         <main>
+        
         <article class="vak1">
-        <p><b>Welcome<b> <br>
-        to <br>MathKits
-        </p>        
+            <h1><b>Mathkits<b></h1>     
         </article>
 
         <article class="vak2">
-        <p>Youre online <br>
-        Math Teacher
-        </p>        
+        <p>Mathkits is een jou online Wiskunde docent</p>        
         </article>
-        
-        <article class="achtergrondfoto">
-            	<img src="images/logo.png">
+
+        <article class="vak3">
+        <p>Hier vind je alles wat je nodig heb kwa Wiskunde</p>        
         </article>
+
+        <article class="vak4">
+        <p>Wees zeker dat je de “Eenvoudig” en “Complex” pagina bezoeken</p>        
+        </article>
+
+
+        <article class="vak5">
+        <img src="images/logo.png" alt="bg" width="200" height="200">       
+        </article>
+
+
+
+
+
+
+
+
+
+
         </main>
         <footer>
             <article class="footer">

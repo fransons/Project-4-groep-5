@@ -1,0 +1,416 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.achtergrondfoto{
+    display: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background: rgba(186, 5, 79, 1);
+    width: 1538px;
+    height: 120px;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+Body{
+    display: block;
+    background: linear-gradient(50deg, rgba(226, 10, 98, 1) 21%, rgba(255, 85, 81, 1) 61%); 
+    width: 99%;
+    
+}
+
+#homedesk {
+    margin-top: 10px;
+}
+
+#inlogdesk {
+    margin-left: 70vh;
+    margin-top: -304px;
+}
+
+
+
+
+.logo{
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.footer{
+    
+    height: 50px;
+    color: white;
+    margin-top: 40px;
+    background: rgba(186, 5, 79, 1);
+    width: 101%;
+    margin-left: -8px;
+}
+
+.footertext{
+    display: block;
+    position: absolute;
+    top: 40px;
+    margin-left: 15px;
+    font-size: 20px;
+    color: white;
+  
+}
+
+
+
+
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}
+
+.hoofdnav {
+    position: relative;
+    left: 600px;
+    top: 25px;
+    padding-left: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    color: white;
+    
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.vak1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 20px;
+
+}
+
+.vak2{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    top: 220px;
+    margin-left: 425px;
+    font-weight: 40px;
+}
+
+.vak3{
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    margin-left: 463px;
+    margin-top: -60px;
+    text-align: center;
+}
+
+.vak4{
+    color: white;
+    font-size: 30px;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.vak5 {
+  margin-top: 41px;
+  margin-left: 650px;
+  border: 10px;
+}
+
+
+
+
+
+/*telefoon*/
+
+@media screen and (max-width: 767px){
+    @media (min-width: 768px) and (max-width: 1024px) {
+    
+    
+    }
+  
+        header{
+            display: flex;
+            flex-direction: row;
+            background: rgba(186, 5, 79, 1);
+            width: 770px;
+            height: 70px;
+            margin-left: -10px;
+            margin-top: -10px;
+        }
+        
+        Body{
+            display: block;
+            background: linear-gradient(50deg, rgba(226, 10, 98, 1) 21%, rgba(255, 85, 81, 1) 61%); 
+            width: 99%;
+            
+        }
+        
+        .logo{
+            display: block;
+            width: 50px;
+            height: 50px;
+            position: relative;
+            top: 10px;
+            left: 10px;
+        }
+
+        .vak5 {
+            position: absolute;
+            margin-left: 90px;
+            margin-top: 270px;
+            
+            
+        }
+
+
+
+        .footer{
+            
+            height: 50px;
+            color: white;
+            margin-top: 500px;
+            background: rgba(186, 5, 79, 1);
+            width: 101%;
+            margin-left: -8px;
+        }
+        
+        .footertext{
+            display: block;
+            position: absolute;
+            top: 40px;
+            margin-left: 15px;
+            font-size: 20px;
+            color: white;
+          
+        }
+        
+        
+            
+    .vak1 {
+        position: absolute;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: -10px;
+    }
+
+    .vak2 {
+        margin-left: 5px;
+        font-size: 18px;
+        text-align: center;
+        margin-top: -20px;
+    }
+
+    .vak3 {
+        margin-top: 165px;
+        text-align: center;
+        margin-left: 15px;
+        font-size: 15px;
+    }
+     
+    .vak4 {
+        position: absolute;
+        margin-top: 200px;
+        font-size: 12px;
+        text-align: center;
+        margin-left: 7px;
+        
+    }
+  
+        #menu{
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            
+        }
+        
+        .hoofdnav {
+            position: relative;
+            left: 25px;
+            top: 15px;
+            padding-left: 5px;
+            text-decoration: none;
+            list-style: none;
+            font-size: 10px;
+            color: white;
+            
+            
+        }
+        
+        .achtergrondfoto{
+            display: block;
+            opacity: 0.25;
+            position: absolute;
+            left: -20px;
+            top: 150px;
+            width: 100px;
+            height: 100px;
+        }
+    
+        a:hover{
+            text-decoration: underline;
+        }
+        
+        
+}
+
+/*landscape phone*/
+@media (min-width : 319px) and (max-width: 480px){
+
+}
+
+/*ipad landscape*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    
+}
+
+/*tablet potrait*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (orientation : portrait) { 
+    *{
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    
+    
+    
+    header{
+        display: flex;
+        flex-direction: row;
+        background: rgba(186, 5, 79, 1);
+        width: 770px;
+        height: 100px;
+        margin-left: -10px;
+        margin-top: -10px;
+    }
+    
+    Body{
+        display: block;
+        background: linear-gradient(50deg, rgba(226, 10, 98, 1) 21%, rgba(255, 85, 81, 1) 61%); 
+        width: 99%;
+        
+    }
+    
+    .logo{
+        display: block;
+        width: 80px;
+        height: 80px;
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+    
+    .footer{
+        
+        height: 50px;
+        color: white;
+        margin-top: 500px;
+        background: rgba(186, 5, 79, 1);
+        width: 101%;
+        margin-left: -8px;
+    }
+    
+    .footertext{
+        display: block;
+        position: absolute;
+        top: 40px;
+        margin-left: 15px;
+        font-size: 20px;
+        color: white;
+      
+    }
+    
+   h2 {
+       margin-left: 100vh;
+   }
+    
+    #menu{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        
+    }
+    
+    .hoofdnav {
+        position: relative;
+        left: 150px;
+        top: 25px;
+        padding-left: 10px;
+        text-decoration: none;
+        list-style: none;
+        font-size: 20px;
+        color: white;
+        
+        
+    }
+    
+    .achtergrondfoto{
+        display: block;
+        opacity: 0.25;
+        position: absolute;
+        left: 150px;
+        top: 200px;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+    
+    .vak1{
+        color: white;
+        font-weight: Bold;
+        font-size: 80px;
+        margin-left: 20px;
+        margin-top: -70px;
+    }
+    
+    .vak2{
+        position: absolute;
+        color: white;
+        font-size: 30px;
+        margin-left:80px;
+        top: 250px;
+    }
+
+    .vak3 {
+        position: absolute;
+        margin-left: 70px;
+        margin-top: -50px;
+    }
+
+    .vak4 {
+        position: absolute;
+        margin-top: 10px;
+        font-size: 26px;
+        margin-left: 10px;
+    }
+
+    .vak5 {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 270px;
+        margin-top:120px;
+        
+    }
+    
+}
