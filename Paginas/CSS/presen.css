@@ -48,7 +48,7 @@ Body{
     
     height: 50px;
     color: white;
-    margin-top: 40px;
+    margin-top: 60px;
     background: rgba(186, 5, 79, 1);
     width: 101%;
     margin-left: -8px;
@@ -77,7 +77,7 @@ Body{
 
 .hoofdnav {
     position: relative;
-    left: 600px;
+    left: 1100px;
     top: 25px;
     padding-left: 20px;
     text-decoration: none;
@@ -241,7 +241,7 @@ a:hover{
         
         .hoofdnav {
             position: relative;
-            left: 25px;
+            left: 170px;
             top: 15px;
             padding-left: 5px;
             text-decoration: none;
@@ -352,7 +352,7 @@ and (orientation : portrait) {
     
     .hoofdnav {
         position: relative;
-        left: 150px;
+        left: 430px;
         top: 25px;
         padding-left: 10px;
         text-decoration: none;

@@ -1,4 +1,9 @@
-
+<?php
+    session_start();
+    if($_SESSION['ingelogd'] != true){
+        header("Location: Inlog.php");
+    }
+?>
 <!doctype html>
 
 <html>
@@ -19,14 +24,13 @@
 
     <body>
         <header>
-        <a href="index.php">
+        <a href="login.php">
          <img src="images/logo.png" class="logo">
          <nav>
                 <article class="nav">
                     <nav>
                        <ul id="menu">
                        <a class="hoofdnav" href="index.php"><li>Home</li></a>
-                        <a class="hoofdnav" href="Inlog.php"><li>Inlog</li></a>
                         <a class="hoofdnav" href=".php"><li>Eenvoudig</li></a>
                         <a class="hoofdnav" href=".php"><li>Complex</li></a>
                         <a class="hoofdnav" href=".php"><li>Game</li></a>

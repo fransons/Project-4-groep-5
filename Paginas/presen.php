@@ -25,11 +25,7 @@
                 <article class="nav">
                     <nav>
                        <ul id="menu">
-                       <a class="hoofdnav" href="index.php"><li>Home</li></a>
-                        <a class="hoofdnav" href="Inlog.php"><li>Inlog</li></a>
-                        <a class="hoofdnav" href=".php"><li>Eenvoudig</li></a>
-                        <a class="hoofdnav" href=".php"><li>Complex</li></a>
-                        <a class="hoofdnav" href=".php"><li>Game</li></a>
+                        <a class="hoofdnav" href="inlog.php"><li>Inlog</li></a>
                         <a class="hoofdnav" href="presen.php"><li>Presentatie</li></a>
                       
                       </ul>

@@ -71,7 +71,7 @@ Body{
 
 .hoofdnav {
     position: relative;
-    left: 700px;
+    left: 1100px;
     top: 25px;
     padding-left: 20px;
     text-decoration: none;
@@ -105,17 +105,18 @@ a:hover{
     background-color: transparent;
     color: white;
     font-size: 30px;
+    margin-top: 3px;
 }
 
 .inloggen{
     border-style: solid;
     border-color: yellow;
-    color: white;
-    background-color: transparent;
+    color: yellow;
+    background-color: yellow;
     font-size: 20px;
     border-radius: 50px;
     margin-top: 30px;
-    margin-left: 75px;
+    margin-left: 95px;
     height: 30px;
     width: 200px;
 }
@@ -190,7 +191,7 @@ a:hover{
         
         .hoofdnav {
             position: relative;
-            left: 50px;
+            left: 170px;
             top: 15px;
             padding-left: 5px;
             text-decoration: none;
@@ -249,12 +250,12 @@ a:hover{
         .inloggen{
             border-style: solid;
             border-color: yellow;
-            color: white;
-            background-color: transparent;
+            color: yellow;
+            background-color: yellow;
             font-size: 20px;
             border-radius: 50px;
             margin-top: 30px;
-            margin-left: 75x;
+            margin-left: 73px;
             height: 30px;
             width: 100px;
         }
@@ -343,7 +344,7 @@ and (orientation : portrait) {
     
     .hoofdnav {
         position: relative;
-        left: 200px;
+        left: 430px;
         top: 25px;
         padding-left: 10px;
         text-decoration: none;
@@ -398,8 +399,8 @@ and (orientation : portrait) {
     .inloggen{
         border-style: solid;
         border-color: yellow;
-        color: white;
-        background-color: transparent;
+        color: yellow;
+        background-color: yellow;
         font-size: 20px;
         border-radius: 50px;
         margin-top: 30px;

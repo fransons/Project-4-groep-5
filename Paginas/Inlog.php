@@ -1,20 +1,30 @@
 <?php
-        
-        if (isset($_POST['submit'])) {
-            If (!empty($_POST['username']) && !empty($_POST['password'])) {
-                require("dbconnect.php");
-                $username = trim($_POST['username']);
-                $password = trim($_POST['password']);
 
-                $sql = "SELECT * FROM gebruikers WHERE username = '".$username."' AND password = '". $password"'";
-
-                if ($result = $conn->query($sql)){
-                    $aantal = $result->num_rows;
-                }
+$error = "";
+    if(isset($_POST['submit'])){
+        if(!empty($_POST['username']) && !empty($_POST['password'])) {
+            require("dbconnect.php");
+            $sql = "SELECT * FROM gebruikers WHERE username = '".$_POST['username']."' AND password = '".$_POST['password']."'";
+           
+            if($result = $conn->query($sql)){
+                $aantal = $result->num_rows;
+            }else{
+                $error = "query niet gelukt";
             }
-        }
-        }
-        ?>
+
+
+     if($aantal == 1 ){
+         session_start();
+         $_SESSION['ingelogd'] = true;
+         header("Location: index.php");
+     }else{
+         $error = "Niet de juiste gegevens ingevuld";
+     }
+    }else{
+        $error = "vul je gegevens in";
+    }
+}
+?>
 <!doctype html>
 
 <html>
@@ -28,7 +38,6 @@
     	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
         <title>MathKits</title>
         <link rel="stylesheet" type="text/css" href="CSS/Inloggen.css">
-        <script src="JS/Inloggen.js"></script> 
         <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     </head>
@@ -45,10 +54,7 @@
                        <ul id="menu">
                        
                         <a class="hoofdnav" href="Inlog.php"><li>Inlog</li></a>
-                        <a class="hoofdnav" href=".php"><li>Eenvoudig</li></a>
-                        <a class="hoofdnav" href=".php"><li>Complex</li></a>
-                        <a class="hoofdnav" href=".php"><li>Game</li></a>
-                        <a class="hoofdnav" href=".php"><li>Presentatie</li></a>
+                        <a class="hoofdnav" href="presen.php"><li>Presentatie</li></a>
                       
                       </ul>
                   </nav>
@@ -61,13 +67,12 @@
             <p>Sign In</p>
         </article>
 
-        <article class="Form">
-        <form method="POST">
+    <article class="Form">
+        <form method="post" action="">
         
-            <label></label><br><input type="text" name="username" class="user" placeholder= "Gebruikersnaam:"/><br>
-            <br><input type="password" name="password" class="user" placeholder= "Wachtwoord:"/><br>
-            <input type="submit" name="submit" value="Sign In" class="inloggen"/>
-            
+            <input type='text' name='username' class="user" placeholder="Gebruikersnaam">
+           <br> <br> <input type='password' name='password' class="user" placeholder="Wachtwoord"><br><br>
+            <input type='submit' name='submit' class="inloggen">
         </form>
         </article>
         
@@ -84,4 +89,3 @@
     
     </body>
 </html>
-
